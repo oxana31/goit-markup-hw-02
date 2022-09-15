@@ -1,0 +1,14 @@
+:root 
+
+
+body {
+    color: teal;
+    font-size: large;
+    letter-spacing: normal;
+    background-color: yellow;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+ .text {
+    white-space: pre-wrap;
+ }
