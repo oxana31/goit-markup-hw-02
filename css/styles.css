@@ -3,12 +3,14 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
+    --background-dark: #2F303A; 
+    --background-light: #F5F4FA;
     --primary-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background-color: var(--primary-white-color);
+    background-color: var(--background-light);
     color: var(--primary-text-color);
 
     font-family: var(--primary-font-family);
@@ -21,7 +23,7 @@ body {
 
 /* ======== START HEADER========== */
 
-.logo {
+.first-logo {
     font-family: var(--secondary-font-family);
     font-size: 26px;
     line-height: 1.2;
@@ -67,3 +69,12 @@ body {
 .contact:focus {
     color: var(--accent-color);
 }
+
+
+
+/* ===== START FOTTER===== */
+.second-logo {
+    color: var(--primary-white-color);
+    background-color: var(--background-dark);
+}
+
