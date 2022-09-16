@@ -1,14 +1,66 @@
-:root 
-
-
-body {
-    color: teal;
-    font-size: large;
-    letter-spacing: normal;
-    background-color: yellow;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --primary-font-family: Roboto, sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
 }
 
- .text {
-    white-space: pre-wrap;
- }
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/*========== START COMPONENTS======= */
+
+
+/* ======== START HEADER========== */
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.part-logo {
+    color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--title-text-color);
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.contact {
+    color: var(--primary-text-color);    
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
