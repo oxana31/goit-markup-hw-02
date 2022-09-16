@@ -3,7 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
-    --primary-font-family: Roboto, sans-serif;
+    --primary-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
 }
 
@@ -49,6 +49,9 @@ body {
     letter-spacing: 0.02em;
 }
 
+.current {
+    color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
